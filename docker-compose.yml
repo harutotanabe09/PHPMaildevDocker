@@ -7,4 +7,4 @@ services:
       - ./html:/var/www/html
     ports:
       - "8079:80"
-      - "1080:1080"
+      - "1081:1080"

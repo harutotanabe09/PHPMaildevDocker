@@ -15,4 +15,4 @@ WORKDIR /var/www/html
 ADD docker-entrypoint.sh /var/
 RUN chmod 777 /var/docker-entrypoint.sh
 
-CMD sh /var/docker-entrypoint.sh
+# CMD sh /var/docker-entrypoint.sh

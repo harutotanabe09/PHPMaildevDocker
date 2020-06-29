@@ -5,12 +5,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
   - package-ecosystem: "composer"
     # Files stored in repository root
-    directory: "/html"
+    directory: "/html/"
     schedule:
       interval: "daily"
